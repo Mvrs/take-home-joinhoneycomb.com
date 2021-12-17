@@ -53,10 +53,12 @@ This Take Home was Built with React Native
 ## Roadblocks
 
 One of the things I've come to realize is don't try to integrank a blank React Native project with a time constraint for a take home project. I stumbled into alot of errors in the beginning like the rendering of `ExpoRootComponent` or duplicate keys rendering in the `<FlatList />` component. The interesting design (I admit) had me sweating which cause me to overlap some cards to achieve the design. Before getting there I spent 1hr and some change wondering why (I know I know the pressure got to me lol) my data was not coming in. Long story short my `<FlatList />` component was being called from the `reanimated 2` library. 
+After switching to Context (dumb move) when ever I create a new mood the color and text would vanish, but the date would stay there. Async and Context wasn't the best move for cool points and noticed all my rings were gone like Sonic slipping on a banana. 
 
 ## Realizations
 
 > Now Now Now... I got lost in the sauce. 
+
 I would have went with Basic React and Framer Motion to replicate a mobile feel and look. 
 Saving time is key, so going with TypeScript (although it's cool) slowed down my development process; this led to typing errors without no time to write a proper tsconfig file for rules. 
 This should have been simple, but sometimes getting yourself off to a weak start can be hard to recoup from, but this was a fun project. Ah, forgot! Using `route.params.args` wasn't the best thing to do as React Navigation bewares of performance issues, but it got the job done for the time being 😅.  
